@@ -6,7 +6,7 @@
   - Eliminamos el enlace a 2glux.com en la alerta de activación de Javascript
   
 ## v 3.0.4 Edited by MVG
-  - solventa la aparición de warnings por usar codificación php desactualizada
+  - Solventa la aparición de warnings por usar codificación php desactualizada
 
 ## v 3.0.3 Version original 
   From http://2glux.com/projects/jumi
