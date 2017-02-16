@@ -1,0 +1,9 @@
+-----------------------------
+# com_jumi_bnvl Changelog
+-----------------------------
+
+## v 3.0.4 Edioted by MVG
+  - solventa la aparoición de warnings por usar codificación php desactualizada
+
+## v 3.0.3 Version original 
+  From http://2glux.com/projects/jumi
