@@ -11,11 +11,11 @@ defined('_JEXEC') or die('Restricted access');
 require_once (JPATH_SITE.'/components/com_content/helpers/route.php');
 
 class modJumiHelper {
-    function getCodeWritten(&$params) { //returns code written or ""
+    public static function getCodeWritten(&$params) { //returns code written or ""
         return trim($params->get( 'code_written' ));
     }
 
-    function getStorageSource(&$params) { //returns filepathname or a record id or ""
+    public static function getStorageSource(&$params) { //returns filepathname or a record id or ""
         $storage=trim($params->get('source_code_storage'));
         if($storage!="") {
             if($id = substr(strchr($storage,"*"),1)) { //if record id return it
@@ -30,7 +30,7 @@ class modJumiHelper {
         }
     }
 
-    function getCodeStored($source) { //returns code stored in the database or null.
+    public static function getCodeStored($source) { //returns code stored in the database or null.
         $database = &JFactory::getDBO();
         //$user      = &JFactory::getUser();
         //$database->setQuery("select custom_script from #__jumi where id = '{$source}' and access <= {$user->gid} and published = 1");
