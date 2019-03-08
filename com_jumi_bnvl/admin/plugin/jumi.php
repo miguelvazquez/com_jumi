@@ -23,14 +23,11 @@ class plgSystemJumi extends JPlugin {
 
     function onAfterRender() {
       // EDITED BY MVG - BONAVAL
-      //$mainframe = &JFactory::getApplication();
       $mainframe = JFactory::getApplication();
       if($mainframe->isAdmin())
         return;
 
       // EDITED BY MVG - BONAVAL
-      //$plugin =& JPluginHelper::getPlugin('content', 'jumi'); // COMMENTED BY MVG
-      //$pluginParams = json_decode( $plugin->params ); // COMMENTED BY MVG
       $pluginParams = json_decode( $this->_plugin->params ); // ADDED BY MVG
 
       $content = JResponse::getBody();
@@ -107,8 +104,8 @@ class plgSystemJumi extends JPlugin {
     }
 
     function getCodeStored($source) { //returns code stored in the database or null.
-        $database  = &JFactory::getDBO();
-        //$user = &JFactory::getUser();
+        $database  = JFactory::getDBO();
+        //$user = JFactory::getUser();
         //$database->setQuery("select custom_script from #__jumi where id = '{$source}' and access <= {$user->gid} and published = 1");
         $database->setQuery("select custom_script from #__jumi where id = $source");
         return $database->loadResult();

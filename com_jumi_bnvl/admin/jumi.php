@@ -37,7 +37,7 @@ $classname    = 'JumiController'.$controller;
 $controller   = new $classname( );
 
 
-$document =& JFactory::getDocument();
+$document = JFactory::getDocument();
 
 $cssFile = JURI::base(true).'/components/com_jumi/assets/css/icons.css';
 $document->addStyleSheet($cssFile, 'text/css', null, array());

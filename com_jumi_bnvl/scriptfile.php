@@ -41,7 +41,7 @@ class com_jumiInstallerScript {
             echo 'Router install failed', '<br />';
 
         // enabling plugin
-        $db =& JFactory::getDBO();
+        $db = JFactory::getDBO();
         $db->setQuery('update #__extensions set enabled = 1 where element = "jumi" and folder = "system"');
         $db->query();
 
@@ -59,7 +59,7 @@ class com_jumiInstallerScript {
         // $parent is the class calling this method
         //echo '<p>' . JText::_('COM_HELLOWORLD_UNINSTALL_TEXT') . '</p>';
 
-        $db =& JFactory::getDBO();
+        $db = JFactory::getDBO();
 
         // uninstalling jumi module
         $db->setQuery("select extension_id from #__extensions where name = 'Jumi' and type = 'module' and element = 'mod_jumi'");

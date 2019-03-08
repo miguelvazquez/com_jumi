@@ -22,7 +22,7 @@ if(JV == 'j2') {
 	class JumiVieweditApplication extends JView {
 		function display($tpl = null) {
 			//get the data
-			$application		=& $this->get('Data');
+			$application		= $this->get('Data');
 			
 			$isNew		= ($application->id < 1);
 	 
@@ -49,7 +49,7 @@ else {
 	class JumiVieweditApplication extends JViewLegacy {
 		function display($tpl = null) {
 			//get the data
-			$application		=& $this->get('Data');
+			$application		= $this->get('Data');
 				
 			$isNew		= ($application->id < 1);
 	

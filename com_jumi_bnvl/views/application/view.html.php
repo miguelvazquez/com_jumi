@@ -23,10 +23,10 @@ if(JV == 'j2') {
 	    function display($tpl = null) {
 	        // Initialise variables.
 	        $fileid    = JRequest::getInt('fileid');
-	        $database  = &JFactory::getDBO();
-	        $user      = &JFactory::getUser();
-	        $document  = &JFactory::getDocument();
-	        $mainframe = &JFactory::getApplication();
+	        $database  = JFactory::getDBO();
+	        $user      = JFactory::getUser();
+	        $document  = JFactory::getDocument();
+	        $mainframe = JFactory::getApplication();
 	
 	        //$database->setQuery("select * from #__jumi where id = '{$fileid}' and access <= {$user->gid} and published = 1");
 	        $database->setQuery("select * from #__jumi where id = '{$fileid}' and published = 1");
@@ -60,10 +60,10 @@ else {
 		function display($tpl = null) {
 			// Initialise variables.
 			$fileid    = JRequest::getInt('fileid');
-			$database  = &JFactory::getDBO();
-			$user      = &JFactory::getUser();
-			$document  = &JFactory::getDocument();
-			$mainframe = &JFactory::getApplication();
+			$database  = JFactory::getDBO();
+			$user      = JFactory::getUser();
+			$document  = JFactory::getDocument();
+			$mainframe = JFactory::getApplication();
 	
 			//$database->setQuery("select * from #__jumi where id = '{$fileid}' and access <= {$user->gid} and published = 1");
 			$database->setQuery("select * from #__jumi where id = '{$fileid}' and published = 1");

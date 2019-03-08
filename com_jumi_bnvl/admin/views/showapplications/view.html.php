@@ -31,7 +31,7 @@ if(JV == 'j2') {
 	    	JToolBarHelper::help( 'screen.applications' );
 	    	
 	    	// Get data from the model
-	    	$items =& $this->get( 'Data');
+	    	$items = $this->get( 'Data');
 	    	$filter = $this->get('Filter');
 	    	$pagination = $this->get('Pagination');
 	    	
@@ -57,7 +57,7 @@ else {
 			JToolBarHelper::help( 'screen.applications' );
 	
 			// Get data from the model
-			$items =& $this->get( 'Data');
+			$items = $this->get( 'Data');
 			$filter = $this->get('Filter');
 			$pagination = $this->get('Pagination');
 	

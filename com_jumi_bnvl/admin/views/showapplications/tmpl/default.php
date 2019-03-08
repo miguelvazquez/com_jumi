@@ -66,7 +66,7 @@ if(JV == 'j2') {
             for ($i=0, $n=count( $this->items ); $i < $n; $i++) {
             	
             	
-            	$row =& $this->items[$i];
+            	$row = $this->items[$i];
             	$checked    = JHTML::_( 'grid.id', $i, $row->id );
             	$link = JRoute::_( 'index.php?option=com_jumi&controller=application&task=edit&cid[]='. $row->id );
             	$published 	= JHTML::_('grid.published', $row, $i );
@@ -233,7 +233,7 @@ else {
             for ($i=0, $n=count( $this->items ); $i < $n; $i++) {
             	
             	
-            	$row =& $this->items[$i];
+            	$row = $this->items[$i];
             	$checked    = JHTML::_( 'grid.id', $i, $row->id );
             	$link = JRoute::_( 'index.php?option=com_jumi&controller=application&task=edit&cid[]='. $row->id );
             	$published 	= JHtml::_('jgrid.published', $row->published, $i);

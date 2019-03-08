@@ -8,7 +8,7 @@
 
 function JumiBuildRoute(&$query) {
     $temp = JFactory::getDBO();
-    $db =& $temp;
+    $db = $temp;
     $segments = array();
 
     if(isset($query['fileid'])) {
@@ -22,7 +22,7 @@ function JumiBuildRoute(&$query) {
 
 function JumiParseRoute($segments) {
     $temp = JFactory::getDBO();
-    $db =& $temp;
+    $db = $temp;
     $vars = array();
 
     $db->setQuery('select id from #__jumi where alias = "'.$segments[0].'"');
