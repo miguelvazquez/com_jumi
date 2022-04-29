@@ -1,11 +1,8 @@
 <?php
 /**
- * Joomla! component sexy_polling
- *
- * @version $Id: sexyanswers.php 2012-04-05 14:30:25 svn $
- * @author Simon Poghosyan
+ * @author Miguel Vazquez (Bonaval)
  * @package Joomla
- * @subpackage sexy_polling
+ * @subpackage jumi_bnvl
  * @license GNU/GPL
  *
  * Sexy Polling

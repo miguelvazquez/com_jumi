@@ -1,8 +1,7 @@
 <?php
 /**
-* @version   $Id$
 * @package   Jumi
-* @copyright (C) 2008 - 2010 Martin Hajek, 2011 Edvard Ananyan, 2013 Simon Poghosyan
+* @copyright Copyright (c) 2008 - 2022 Bonaval Multimedia SL. All rights reserved., 2013 Simon Poghosyan
 * @license   GNU/GPL v3 http://www.gnu.org/licenses/gpl.html
 */
 

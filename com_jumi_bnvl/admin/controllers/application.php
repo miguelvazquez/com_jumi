@@ -1,14 +1,9 @@
 <?php
 /**
- * Joomla! 1.5 component sexy_polling
- *
- * @version $Id: answers.php 2012-04-05 14:30:25 svn $
- * @author Simon Poghosyan
+ * @author Miguel Vazquez (Bonaval)
  * @package Joomla
- * @subpackage sexy_polling
+ * @subpackage jumi_bnvl
  * @license GNU/GPL
- *
- * Sexy Polling
  *
  */
 
@@ -21,7 +16,7 @@ jimport( 'joomla.application.component.controller' );
  * sexy_polling Controller
  *
  * @package Joomla
- * @subpackage sexy_polling
+ * @subpackage jumi_bnvl
  */
 class JumiControllerapplication extends JumiController {
 

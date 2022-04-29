@@ -1,8 +1,7 @@
 /**
- * @version $Id: icons.css 2012-04-05 14:30:25 svn $
- * @author Simon Poghosyan
+ * @author Miguel Vazquez (Bonaval)
  * @package Joomla
- * @subpackage sexy_polling
+ * @subpackage jumi_bnvl
  * @license GNU/GPL
 **/
 .icon-48-showapplications { background-image: url("../images/icon-48-showapplications.png"); }
@@ -26,7 +25,7 @@
 }
 
 #jumi_developer {
-	background:transparent url("../images/2glux.png") left 1px no-repeat;
+	background:transparent url("../images/bonaval.png") left 1px no-repeat;
 }
 #jumi_developer:HOVER {
 	background-position: left top;

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" version="1.6" method="upgrade">
     <name>System - Jumi Router</name>
-    <author>Edvard Ananyan</author>
-    <creationDate>January 2011</creationDate>
-    <copyright>Copyright (C) 2008 - 2011 Edvard Ananyan. All rights reserved.</copyright>
-    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-    <authorEmail>edo888@gmail.com</authorEmail>
-    <authorUrl>http://edo.webmaster.am</authorUrl>
-    <version>2.0.6</version>
+    <author>Miguel Vazquez (Bonaval)</author>
+    <creationDate>April 2020</creationDate>
+    <copyright>Copyright (c) 2008 - 2022 Bonaval Multimedia SL. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>info@bonaval.com</authorEmail>
+    <authorUrl>https://www.bonaval.com/</authorUrl>
+    <version>4.0.0</version>
     <description>SEF routing plugin for Jumi, which will enable direct access to jumi application with it's alias.</description>
 
     <files>

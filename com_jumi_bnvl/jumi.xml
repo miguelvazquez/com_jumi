@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="2.5" method="upgrade">
     <name>com_jumi</name>
-    <author>Simon Poghosyan, edited by Miguel Vazquez (Bonaval)</author>
-    <creationDate>April 2016</creationDate>
-    <copyright>Copyright (c) 2008 - 2013 Simon Poghosyan, Edvard Ananyan. All rights reserved.</copyright>
+    <author>Miguel Vazquez (Bonaval)</author>
+    <creationDate>April 2020</creationDate>
+    <copyright>Copyright (c) 2008 - 2022 Bonaval Multimedia SL. All rights reserved.</copyright>
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
-    <authorEmail>info@2glux.com</authorEmail>
-    <authorUrl>http://2glux.com/</authorUrl>
-    <version>3.0.3</version>
-    <description><![CDATA[This component includes custom scripts (html, php, js, css, ...) into Joomla! pages.<br />Collaboration between multiple Joomla! pages and other Jumi extensions is easy.<br />For Jumi downloads and guides visit <a href="http://2glux.com/projects/jumi" target="_blank">http://2glux.com/projects/jumi</a><br />For Jumi demos, tips and tricks visit <a href="http://2glux.com/projects/jumi/tutorial" target="_blank">http://2glux.com/projects/jumi/tutorial</a>]]></description>
+    <authorEmail>info@bonaval.com</authorEmail>
+    <authorUrl>https://www.bonaval.com/</authorUrl>
+    <version>4.0.0</version>
+    <description><![CDATA[This component includes custom scripts (html, php, js, css, ...) into Joomla! pages.<br />Collaboration between multiple Joomla! pages and other Jumi extensions is easy.]]></description>
 
     <files>
         <filename>jumi.php</filename>

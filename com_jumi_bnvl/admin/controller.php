@@ -1,14 +1,6 @@
 <?php
 /**
- * Joomla! 1.5 component sexy_polling
- *
- * @version $Id: controller.php 2012-04-05 14:30:25 svn $
- * @author Simon Poghosyan
- * @package Joomla
- * @subpackage sexypolling
  * @license GNU/GPL
- *
- * Sexy Polling
  *
  */
 
