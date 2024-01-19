@@ -23,6 +23,7 @@ class plgSystemJumi extends JPlugin {
     function onAfterRender() {
       // EDITED BY MVG - BONAVAL
       $mainframe = JFactory::getApplication();
+      // if($mainframe->isAdmin())
       if($mainframe->isClient('admin'))
         return;
 
@@ -100,6 +101,7 @@ class plgSystemJumi extends JPlugin {
             }
         }
 
+        // JResponse::setBody($content);
         JFactory::getApplication()->setBody($content);
     }
 

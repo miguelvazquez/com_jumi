@@ -17,6 +17,7 @@ class  plgSystemJumiRouter extends JPlugin {
     function __construct(& $subject, $config) {
         // check to see if we are on frontend to execute plugin
         $mainframe = JFactory::getApplication();
+        // if($mainframe->isAdmin())
         if($mainframe->isClient('admin'))
             return;
 
