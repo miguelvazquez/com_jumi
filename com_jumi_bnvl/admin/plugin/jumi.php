@@ -23,13 +23,14 @@ class plgSystemJumi extends JPlugin {
     function onAfterRender() {
       // EDITED BY MVG - BONAVAL
       $mainframe = JFactory::getApplication();
-      if($mainframe->isAdmin())
+      if($mainframe->isClient('admin'))
         return;
 
       // EDITED BY MVG - BONAVAL
       $pluginParams = json_decode( $this->_plugin->params ); // ADDED BY MVG
 
-      $content = JResponse::getBody();
+      // var_dump(JResponse::getBody());
+      $content = JFactory::getApplication()->getBody();
 
       //print_r($pluginParams);exit;
 
@@ -99,7 +100,7 @@ class plgSystemJumi extends JPlugin {
             }
         }
 
-        JResponse::setBody($content);
+        JFactory::getApplication()->setBody($content);
     }
 
     function getCodeStored($source) { //returns code stored in the database or null.
