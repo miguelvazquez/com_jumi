@@ -7,7 +7,7 @@
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>info@bonaval.com</authorEmail>
     <authorUrl>https://www.bonaval.com/</authorUrl>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
     <description><![CDATA[This component includes custom scripts (html, php, js, css, ...) into Joomla! pages.<br />Collaboration between multiple Joomla! pages and other Jumi extensions is easy.]]></description>
 
     <files>

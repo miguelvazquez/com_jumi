@@ -7,7 +7,7 @@
     <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <authorEmail>info@bonaval.com</authorEmail>
     <authorUrl>https://www.bonaval.com/</authorUrl>
-    <version>4.0.0</version>
+    <version>4.1.0</version>
     <description>SEF routing plugin for Jumi, which will enable direct access to jumi application with it's alias.</description>
 
     <files>
