@@ -14,7 +14,7 @@ defined('_JEXEC') or die('Restricted access');
 if(!defined('DS')){
 	define('DS',DIRECTORY_SEPARATOR);
 }
-define('JV', (version_compare(JVERSION, '3', 'l')) ? 'j2' : 'j3');
+define('JV', (version_compare(JVERSION, '3', '<')) ? 'j2' : 'j3');
 define( 'COM_JUMI_DIR', 'images'.DS.'jumi'.DS );
 define( 'COM_JUMI_BASE', JPATH_ROOT.DS.COM_JUMI_DIR );
 define( 'COM_JUMI_BASEURL', JURI::root().str_replace( DS, '/', COM_JUMI_DIR ));

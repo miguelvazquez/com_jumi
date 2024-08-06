@@ -15,7 +15,7 @@ if(JV == 'j2') {
 ?>
 
         <script type="text/javascript">
-		<?php if(version_compare( JVERSION, '1.6.0', 'lt' )) { ?>
+		<?php if(version_compare( JVERSION, '1.6.0', '<' )) { ?>
 		function submitbutton(task) {
 		<?php } else { ?>
 		Joomla.submitbutton = function(task) {
@@ -100,10 +100,10 @@ if(JV == 'j2') {
 <td align="center" valign="middle" id="jumi_td" style="">
 	<a href="https://www.bonaval.com/projects/jumi" style="font-size: 12px;" target="_blank">Jumi</a> developed by <a href="https://www.bonaval.com" target="_blank">www.bonaval.com</a>
 	<div style="position: absolute;right: 2px;top: 7px;">
-		<a href="http://extensions.joomla.org/extensions/core-enhancements/coding-a-scripts-integration/custom-code-in-content/1023" target="_blank" id="jumi_rate" class="jumi_bottom_icon" title="If you like Jumi, Rate Us PLEASE">&nbsp;</a>
-		<a href="https://www.bonaval.com/projects/jumi" target="_blank" id="jumi_homepage" style="margin: 0 2px 0 0px;" class="jumi_bottom_icon" title="Project Homepage">&nbsp;</a>
+		<!--<a href="http://extensions.joomla.org/extensions/core-enhancements/coding-a-scripts-integration/custom-code-in-content/1023" target="_blank" id="jumi_rate" class="jumi_bottom_icon" title="If you like Jumi, Rate Us PLEASE">&nbsp;</a>
+		<a href="https://www.bonaval.com/projects/jumi" target="_blank" id="jumi_homepage" style="margin: 0 2px 0 0px;" class="jumi_bottom_icon" title="Project Homepage">&nbsp;</a>-->
 		<a href="https://www.bonaval.com" target="_blank" id="jumi_developer" class="jumi_bottom_icon" title="Bonaval Multimedia SL">&nbsp;</a>
-		<a href="https://www.bonaval.com/forum/jumi/" target="_blank" id="jumi_support" class="jumi_bottom_icon" title="Support Forum">&nbsp;</a>
+		<!--<a href="https://www.bonaval.com/forum/jumi/" target="_blank" id="jumi_support" class="jumi_bottom_icon" title="Support Forum">&nbsp;</a>-->
 	</div>
 </td>
 </tr></table>
@@ -115,7 +115,7 @@ else {
 	JHtml::_('bootstrap.tooltip');
 ?>
         <script type="text/javascript">
-		<?php if(version_compare( JVERSION, '1.6.0', 'lt' )) { ?>
+		<?php if(version_compare( JVERSION, '1.6.0', '<' )) { ?>
 		function submitbutton(task) {
 		<?php } else { ?>
 		Joomla.submitbutton = function(task) {
@@ -200,10 +200,10 @@ else {
 <td align="center" valign="middle" id="jumi_td" style="">
 	<a href="https://www.bonaval.com/projects/jumi" style="font-size: 12px;" target="_blank">JumiBNVL</a> developed by <a href="https://www.bonaval.com" target="_blank">www.bonaval.com</a>
 	<div style="position: absolute;right: 2px;top: 7px;">
-		<a href="http://extensions.joomla.org/extensions/core-enhancements/coding-a-scripts-integration/custom-code-in-content/1023" target="_blank" id="jumi_rate" class="jumi_bottom_icon" title="If you like Jumi, Rate Us PLEASE">&nbsp;</a>
-		<a href="https://www.bonaval.com/projects/jumi" target="_blank" id="jumi_homepage" style="margin: 0 2px 0 0px;" class="jumi_bottom_icon" title="Project Homepage">&nbsp;</a>
+		<!--<a href="http://extensions.joomla.org/extensions/core-enhancements/coding-a-scripts-integration/custom-code-in-content/1023" target="_blank" id="jumi_rate" class="jumi_bottom_icon" title="If you like Jumi, Rate Us PLEASE">&nbsp;</a>
+		<a href="https://www.bonaval.com/projects/jumi" target="_blank" id="jumi_homepage" style="margin: 0 2px 0 0px;" class="jumi_bottom_icon" title="Project Homepage">&nbsp;</a>-->
 		<a href="https://www.bonaval.com" target="_blank" id="jumi_developer" class="jumi_bottom_icon" title="Bonaval Multimedia SL">&nbsp;</a>
-		<a href="https://www.bonaval.com/forum/jumi/" target="_blank" id="jumi_support" class="jumi_bottom_icon" title="Support Forum">&nbsp;</a>
+		<!--<a href="https://www.bonaval.com/forum/jumi/" target="_blank" id="jumi_support" class="jumi_bottom_icon" title="Support Forum">&nbsp;</a>-->
 	</div>
 </td>
 </tr></table>

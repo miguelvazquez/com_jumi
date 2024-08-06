@@ -2,6 +2,9 @@
 # com_jumi_bnvl Changelog
 -----------------------------
 
+## v 4.1.0 Edited by MVG
+  - solve error on version_compare function
+
 ## v 4.0.0 Edited by MVG
   - Clean
 
